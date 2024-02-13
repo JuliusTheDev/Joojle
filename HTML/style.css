@@ -1,0 +1,174 @@
+/* Redefinição de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cores principais */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222;
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* Seção de Últimas Notícias */
+.ultimas-noticias {
+  margin-top: 20px;
+}
+
+.ultimas-noticias h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ultimas-noticias ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ultimas-noticias li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.ultimas-noticias li a {
+  display: block;
+  text-decoration: none;
+}
+
+.ultimas-noticias li img {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.ultimas-noticias li h3 {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.ultimas-noticias li p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Seção de Categorias */
+.categorias {
+  margin-top: 20px;
+}
+
+.categorias h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.categorias ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categorias li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.categorias li a {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.categorias li a:hover {
+  background-color: #f5f5f5;
+}
+
+/* Seção de Notícias */
+.noticias {
+  margin-top: 20px;
+}
+
+.noticias h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.noticias ul {
+  list-style: none;
+  padding: 0;
+}
+
+.noticias li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.noticias li a {
+  display: block;
+  text-decoration: none;
+}
+
+.noticias li img {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.noticias li h3 {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.noticias li p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  /* Ajustes para telas menores */
+
+  .ultimas-noticias li img,
+  .noticias li img {
+    width: 75px;
+  }
+}
